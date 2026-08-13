@@ -1,0 +1,59 @@
+------------POST-----------
+http://127.0.0.1:5000/aluno
+---------------------------
+
+Body - raw - JSON
+
+{
+  "nome": "Lucas Almeida",
+  "cpf": "12345678901",
+  "idade": 20
+}
+
+{
+  "nome": "Beatriz Santos",
+  "cpf": "23456789012",
+  "idade": 22
+}
+
+{
+  "nome": "Gabriel Ferreira",
+  "cpf": "34567890123",
+  "idade": 19
+}
+
+{
+  "nome": "Mariana Oliveira",
+  "cpf": "45678901234",
+  "idade": 21
+}
+
+{
+  "nome": "Rafael Costa",
+  "cpf": "56789012345",
+  "idade": 23
+}
+
+
+------------GET------------
+http://127.0.0.1:5000/aluno
+http://127.0.0.1:5000/aluno/1
+---------------------------
+
+
+------------PUT------------
+http://127.0.0.1:5000/aluno/3
+---------------------------
+
+Body - raw - JSON
+
+{
+  "nome": "Gabriel Ferreira Atualizado",
+  "cpf": "34567890123",
+  "idade": 20
+}
+
+
+------------DELETE------------
+http://127.0.0.1:5000/aluno/5
+---------------------------
